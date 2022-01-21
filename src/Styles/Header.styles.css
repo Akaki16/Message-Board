@@ -1,0 +1,39 @@
+.app-header {
+    width: 100%;
+    padding: 25px;
+    background: rgb(48, 48, 70);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.app-header
+h1 {
+    position: relative;
+    top: 10px;
+    color: #fff;
+}
+
+.app-header
+button {
+    border: none;
+    outline: none;
+    padding: 7px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: rgb(43, 74, 95);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    width: 190px;
+    height: 50px;
+    transition: 0.4s;
+}
+
+.app-header
+button:hover {
+    opacity: 0.9;
+    background: rgb(33, 79, 109);
+}
