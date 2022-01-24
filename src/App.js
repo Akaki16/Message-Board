@@ -80,7 +80,7 @@ const App = () => {
     resetForm();
   }
 
-  const handleFormSubmit = async (event) => {
+  const handleFormSubmit = (event) => {
     // prevent form from default submitting
     event.preventDefault();
     
